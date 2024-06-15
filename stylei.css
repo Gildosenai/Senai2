@@ -1,0 +1,121 @@
+body{
+    font-family: 'Asap';
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.Senai {
+    margin-top: 10px;
+    margin-left: 39px;
+    position: absolute;
+}
+
+header {
+    background-color:#004C9B;
+    color: white;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+  }
+.lista {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 0;
+    font-size: 24px;
+    
+}
+  
+.lista li {
+    margin-left: 93px;
+    margin-top: 34px;
+    margin-right: 39px;
+}
+
+.matusa img {
+    margin-left: 50%;
+    margin-top: 12%;
+}
+
+.matusa h1 {
+    margin-left: 48%;
+    color: #A1A1A1;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.matusa h2 {
+    color: #A1A1A1;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 48%;
+}
+
+footer{
+    max-height: 100px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 10%;
+    
+}
+
+#footer_content{
+    margin-bottom: 1000px;
+    background-color: #004C9B;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem 3.5rem;
+
+    
+}
+
+#footer_content ul{
+    list-style: none;
+}
+
+#footer_content a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+#footer_social_media{
+    display: flex;
+    margin-top: 10px;
+    gap: 1.1rem;
+
+}
+
+#footer_social_media .footer-link i{
+    font-size: 1rem;
+}
+
+.footer_list1 li{
+    margin-bottom: 10px;
+    
+}
+
+.footer_list2 li{
+    margin-bottom: 10px;
+}
+
+.footer_list3 li{
+    margin-bottom: 10px;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    
+}

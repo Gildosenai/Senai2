@@ -1,0 +1,276 @@
+body{
+    font-family: 'Asap';
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.Senai {
+    margin-top: 22px;
+    margin-left: 39px;
+    position: absolute;
+}
+
+header {
+    background-color:#004C9B;
+    color: white;
+    height: 100px;
+    flex-shrink: 0;
+    width: 1880px;
+}
+
+.pgn {
+    position: absolute;
+}
+.link {
+    text-decoration: none;
+    color: white;
+  }
+.lista {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    font-size: 24px;
+    
+}
+  
+.lista li {
+    margin-left: 93px;
+    margin-top: 34px;
+    margin-right: 39px;
+}
+
+.v1 {
+    margin-left: 1100px;
+    position: absolute;
+    z-index: 10;
+}
+
+.v2 {
+    margin-left: 1270px;
+    position: absolute;
+    z-index: 11;
+}
+
+.v3 {
+    margin-left: 1300px;
+    position: absolute;
+    z-index: 12;
+}
+
+.v4 {
+    margin-left: 1370px;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 13;
+}
+
+.v5 {
+    margin-left: 355px;
+    margin-top: 650px;
+    position: absolute;
+    z-index: 14;
+}
+
+.v6 {
+    margin-top: 740px;
+    margin-left: 355px;
+    position: absolute;
+    z-index: 14;
+}
+
+.v7 {
+    fill: #9A1111;
+}
+
+.txt h1 {
+    display: flex;
+    width: 598.34px;
+    height: 125.59px;
+    flex-direction: column;
+    justify-content: center;
+    color: #173D80;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61.6px;
+    margin-left: 170px;
+    margin-top: 121px;
+}
+
+.txt h2 {
+    display: flex;
+    width: 775.961px;
+    height: 23px;
+    flex-direction: column;
+    justify-content: center;
+    color: #787878;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 170px;
+}
+
+.qd {
+    width: 655.36px;
+    height: 222.19px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.05);
+    margin-top: 100px;
+    margin-left: 170px;
+}
+search-container {
+    text-align: center;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 400px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 70px;
+    background-color: rgb(248, 247, 247);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button {
+    padding: 15px 31.655px 15px 32px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    background: linear-gradient(270deg, #00448B 0%, #000 100%);
+    border: none;
+}
+
+button:active {
+    transform: scale(0.9);
+    background: linear-gradient(270deg, #a310c0 0%, #0400ff 100%);
+    color: white;
+}
+
+#searchResults {
+    margin: 20px;
+}
+
+.qd h1 {
+    display: flex;
+    width: 294.675px;
+    height: 27px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #173D80;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.2px;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#textoSenai {
+    display: flex;
+    width: 1200px;
+    height: 1950px;
+    padding: 18px 20px 20px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.50);
+    margin-top: 900px;
+    margin-left: 300px;
+    font-family: "Noto Sans";
+    
+}
+
+#textoSenai h1 {
+    color: #3C60A7;
+    font-family: Inter;
+    font-size: 31.875px;
+    font-weight: 600;
+    
+}
+
+#textoSenai h2 {
+    font-size: 20px;
+}
+
+#textoSenai h3 {
+    font-size: 16px;
+}
+
+#textoSenai h4 {
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 370px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    width: 100%;
+    color: #ffffff;
+    margin-top: 5%;
+}
+
+#footer_content{
+    background-color: #004C9B;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_content ul{
+    list-style: none;
+}
+
+#footer_content a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_media .footer-link i{
+    font-size: 1.8rem;
+}
+
+.profissionais{
+    color: #0758AA;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 50px;
+}
+
+.profissionais img {
+    margin-left: 200px;
+    margin-bottom: 120px;
+}
